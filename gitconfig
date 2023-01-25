@@ -1,0 +1,9 @@
+[user]
+  name = Troy Underwood
+	email = troyizzle@gmail.com
+	signingkey = 48C0FD62FFBF4F80
+[pull]
+  ff = only
+[push]
+  autoSetupRemote = true
+	ff = only
