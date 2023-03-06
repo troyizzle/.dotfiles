@@ -1,3 +1,5 @@
+require("luasnip.loaders.from_vscode").lazy_load()
+vim.keymap.set("n", "<Leader>rc", ":lua require('ror.commands').list_commands()<CR>", { silent = true })
 vim.keymap.set("n", "<Leader>tf", ":lua require('ror.test').run()<CR>")
 vim.keymap.set("n", "<Leader>tl", ":lua require('ror.test').run('Line')<CR>")
 vim.keymap.set("n", "<Leader>tc", ":lua require('ror.test').clear()<CR>")

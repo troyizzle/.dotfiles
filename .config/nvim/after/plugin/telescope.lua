@@ -6,6 +6,7 @@ vim.keymap.set('n', '<leader>ps', function()
 end)
 vim.keymap.set('n', '<leader>pc', builtin.git_files, { })
 vim.keymap.set('n', '<leader>pm', builtin.git_files, { })
+vim.keymap.set('n', '<leader>wd', builtin.diagnostics, { })
 
 -- Enable telescope fzf native, if installed
 pcall(require('telescope').load_extension, 'fzf')

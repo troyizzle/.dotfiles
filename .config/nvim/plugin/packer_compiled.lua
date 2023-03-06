@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/troy/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-notify"] = {
+    loaded = true,
+    path = "/home/troy/.local/share/nvim/site/pack/packer/start/nvim-notify",
+    url = "https://github.com/rcarriga/nvim-notify"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/troy/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -186,6 +191,11 @@ _G.packer_plugins = {
     path = "/home/troy/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["ror.nvim"] = {
+    loaded = true,
+    path = "/home/troy/.local/share/nvim/site/pack/packer/start/ror.nvim",
+    url = "https://github.com/weizheheng/ror.nvim"
+  },
   ["rose-pine"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
     loaded = true,
@@ -205,10 +215,20 @@ _G.packer_plugins = {
     path = "/home/troy/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["translate.nvim"] = {
+    loaded = true,
+    path = "/home/troy/.local/share/nvim/site/pack/packer/start/translate.nvim",
+    url = "https://github.com/uga-rosa/translate.nvim"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/troy/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-rails"] = {
+    loaded = true,
+    path = "/home/troy/.local/share/nvim/site/pack/packer/start/vim-rails",
+    url = "https://github.com/tpope/vim-rails"
   },
   ["vim-rhubarb"] = {
     loaded = true,
