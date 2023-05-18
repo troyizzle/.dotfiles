@@ -2,10 +2,13 @@
 -- See `:help lualine.txt`
 require('lualine').setup {
   options = {
-    icons_enabled = false,
-    theme = 'rose-pine',
+    icons_enabled = true,
+    theme = 'gruvbox',
     component_separators = '|',
     section_separators = '',
+    sections = {
+      lualine_b = { "branch", "diff", "diagnostics" },
+    }
   },
 }
 
