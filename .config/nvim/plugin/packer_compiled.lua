@@ -234,11 +234,6 @@ _G.packer_plugins = {
     path = "/home/troy/.local/share/nvim/site/pack/packer/start/vim-rhubarb",
     url = "https://github.com/tpope/vim-rhubarb"
   },
-  ["vim-ruby"] = {
-    loaded = true,
-    path = "/home/troy/.local/share/nvim/site/pack/packer/start/vim-ruby",
-    url = "https://github.com/vim-ruby/vim-ruby"
-  },
   ["vim-sleuth"] = {
     loaded = true,
     path = "/home/troy/.local/share/nvim/site/pack/packer/start/vim-sleuth",

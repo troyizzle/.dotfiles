@@ -39,6 +39,11 @@ require('packer').startup(function(use)
 
   use 'github/copilot.vim'
 
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+  })
+
   use { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     run = function()
@@ -68,6 +73,8 @@ require('packer').startup(function(use)
   -- Useful rails plugin
   use 'tpope/vim-rails'
   use 'weizheheng/ror.nvim'
+
+  -- Notify gem
   use 'rcarriga/nvim-notify'
 
   -- Google translation
